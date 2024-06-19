@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body data-barba="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="barba-overlay">
+      <div class="child">
+        <img src="./images/nocoderealm.svg" alt="nocoderealmmmm" />
+      </div>
+      <div class="child"></div>
+    </div>
+    <div class="main" data-barba="container" data-barba-namespace="contact">
+      <section id="contact">
+        <div>
+          <div class="heading__wrapper">
+            <h1>Contact Page</h1>
+            <h4>
+              Pay close attention that there is no reload of the page when we
+              click on a link.
+            </h4>
+            <h4>
+              Only content that is changing is inside 'div' HTML tag with the
+              class of '.main'
+            </h4>
+            <h4>
+              Note that if you click on a link of the page that you are
+              currently on, reload will happen because the page document will be
+              loaded again.
+            </h4>
+          </div>
+          <img src="./images/photo2.jpg" alt="photo2" />
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <h2>Barba.js + GSAP Example 2</h2>
+    </footer>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <script src="./custom-code.js"></script>
+  </body>
+</html>
